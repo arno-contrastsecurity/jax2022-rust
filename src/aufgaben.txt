@@ -4,3 +4,5 @@
 * Schreibe eine Funktion, die einen Vec von Strings nimmt und die Gesamtlänge zurück gibt
   * inkl. unit test
 
+* Struct 'Movie' (name, genre -> enum)
+* MovieRepository: Vec<Movie>, add_movie(), find_by_name, find_by_genre
