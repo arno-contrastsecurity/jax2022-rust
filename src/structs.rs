@@ -1,5 +1,10 @@
 
 
+struct WithVec {
+    names: Vec<String>,
+}
+
+
 pub fn structs() {
     let mut person = Person {
         name: "Max Mustermann".to_string(),
