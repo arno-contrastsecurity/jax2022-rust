@@ -23,6 +23,10 @@ struct Person {
 }
 
 fn read_persons(path: &Path) -> std::io::Result<Vec<Person>> {
+    // let f = match File::open(path) {
+    //     Ok(f) => f,
+    //     Err(e) => return Err(e),
+    // };
     let f = File::open(path)?;
     let persons = serde_json::from_reader(&f)?;
     Ok(persons)
