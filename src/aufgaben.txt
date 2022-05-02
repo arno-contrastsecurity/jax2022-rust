@@ -1,0 +1,5 @@
+* Schreibe eine Funktion, die zwei Strings nimmt und die Gesamtlänge zurück gibt
+  * inkl. unit test
+* Schreibe eine Funktion, die einen Vec von Strings nimmt und die Gesamtlänge zurück gibt
+  * inkl. unit test
+
