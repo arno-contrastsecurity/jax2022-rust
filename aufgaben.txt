@@ -11,3 +11,5 @@
 * Movie bekommt Feld director: usize, actors: Vec<usize>
 * neuer Struct FullMovie: director, actors als String-Referenzen
 * find-Methoden im MovieRepository liefern FullMovie statt Movie
+
+* Repositories aus JSON-Dateien initialisieren
