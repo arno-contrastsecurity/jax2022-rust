@@ -39,7 +39,8 @@ pub fn intro() {
     s.push_str("Jax");
     println!("{}", s);
 
-    let s_ref = &s;
+    let s_ref = &mut s;
+    s_ref.push_str("...");
 
     let lit = "Hallo".to_string();
 
