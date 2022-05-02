@@ -6,3 +6,8 @@
 
 * Struct 'Movie' (name, genre -> enum)
 * MovieRepository: Vec<Movie>, add_movie(), find_by_name, find_by_genre
+
+* struct 'Person' (id: usize, name), PersonRepository
+* Movie bekommt Feld director: usize, actors: Vec<usize>
+* neuer Struct FullMovie: director, actors als String-Referenzen
+* find-Methoden im MovieRepository liefern FullMovie statt Movie
